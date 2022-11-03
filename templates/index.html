@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=we, initial-scale=1.0">
+    <title>WELCOME TO  HELTH CARE</title>
+</head>
+
+<body style="background-color: rgb(170,212,167);">
+
+    <h1>Diabetes Test</h1>
+    <form method= "POST"action="/predict_diabetes">
+
+        <label> Glucose:</label>
+        <input type="text" name ="Glucose">
+        </select>
+
+
+        <br>
+        <br>
+
+
+        <label>BloodPressuree:</label>
+        <input type="text" name ="BloodPressure">
+        </select>
+
+        <br>
+        <br>
+
+
+        <label>SkinThickness:</label>
+        <input type="text" name ="SkinThickness">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Insulin:</label>
+        <input type="text" name ="Insulin">
+        </select>
+
+        <br>
+        <br>
+
+        <label>BMI:</label>
+        <input type="text" name ="BMI">
+        </select>
+
+        <br>
+        <br>
+
+        <label>DiabetesPedigreeFunction:</label>
+        <input type="text" name ="DiabetesPedigreeFunction">
+        </select>
+
+        <br>
+        <br>
+
+        <label>Age:</label>
+        <input type="text" name ="Age">
+        </select>
+
+        <br>
+        <br>
+
+
+        <input type="submit" value="SUBMIT">
+
+        <br>
+
+        <p>Your diabetes test is  <b> {{prediction}} </b></p>
+
+    
+    </form>
+
+</body>
+</html>
