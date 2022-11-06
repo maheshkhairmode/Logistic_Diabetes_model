@@ -36,10 +36,10 @@ class DiadetesModel():
         prediction=self.logistic_model.predict([array])[0]
         print(prediction)
         if prediction==1:
-            return "positive"
+            return "POSITIVE,DONT BE AFRAID JUST TAKE CARE"
 
         else:
-            return "negative"
+            return "NEGATIVE,THATS VERY GOOD JUST ENJOY LIFE"
 
 
 if __name__=="__main__" :
